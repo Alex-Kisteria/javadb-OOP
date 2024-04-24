@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.csit228f2_2.SignUpView">
+   <children>
+      <Button layoutX="247.0" layoutY="276.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="105.0" text="Sign Up" />
+      <Label layoutX="171.0" layoutY="34.0" prefHeight="30.0" prefWidth="258.0" text="Sign Up for a new account!" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <VBox layoutX="100.0" layoutY="85.0" prefHeight="156.0" prefWidth="399.0">
+         <children>
+            <Label text="Username:" />
+            <TextField />
+            <Separator orientation="VERTICAL" prefHeight="200.0" />
+            <Label text="Email:" />
+            <TextField />
+            <Separator orientation="VERTICAL" prefHeight="200.0" />
+            <Label text="Password:" />
+            <PasswordField />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
